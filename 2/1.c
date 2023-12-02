@@ -14,7 +14,6 @@ bool isGamePossible(char game[], int redCount, int greenCount, int blueCount)
     int gameBlue = 0;
 
     char *gameRecord = strchr(game, ':') + 2;
-    bool isPossible = true;
     char *subsetStart = gameRecord;
     char *subsetEnd;
 
@@ -51,7 +50,6 @@ bool isGamePossible(char game[], int redCount, int greenCount, int blueCount)
         }
         if ((gameRed <= redCount) && (gameGreen <= greenCount) && (gameBlue <= blueCount))
         {
-            isPossible = true;
             gameRed = 0;
             gameGreen = 0;
             gameBlue = 0;
