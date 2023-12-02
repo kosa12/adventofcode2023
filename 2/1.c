@@ -1,7 +1,6 @@
 //--- Day 2: Cube Conundrum ---
 // Kosa Matyas
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
