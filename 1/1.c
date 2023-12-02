@@ -37,7 +37,6 @@ int main()
             }
         }
 
-
         if (firstDigit != '\0' && lastDigit != '\0')
         {
             int calibrationValue = (firstDigit - '0') * 10 + (lastDigit - '0');
