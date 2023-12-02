@@ -12,7 +12,6 @@ bool isGamePossible(char game[], int redCount, int greenCount, int blueCount)
     int gameRed = 0;
     int gameGreen = 0;
     int gameBlue = 0;
-
     char *gameRecord = strchr(game, ':') + 2;
     char *subsetStart = gameRecord;
     char *subsetEnd;
